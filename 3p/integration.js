@@ -673,6 +673,13 @@ function init(win) {
  */
 export function draw3p(win, data, configCallback) {
   const type = data['type'];
+  
+  if (!data['attributes']) {
+    data['attributes'] = {};
+  }
+
+  data['attributes']['width'] = window.innerWidth;
+  data['attributes']['height'] = window.innerHeight;
 
   userAssert(
     isTagNameAllowed(type, win.context.tagName),
