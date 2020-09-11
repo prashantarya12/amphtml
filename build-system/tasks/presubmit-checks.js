@@ -988,7 +988,6 @@ const forbiddenTermsSrcInclusive = {
     message: bannedTermsHelpString,
     allowlist: [
       'extensions/amp-install-serviceworker/0.1/amp-install-serviceworker.js',
-      'src/service/viewport/viewport-impl.js',
     ],
   },
   'getComputedStyle\\(': {
