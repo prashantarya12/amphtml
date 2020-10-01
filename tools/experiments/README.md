@@ -1,4 +1,4 @@
-# AMP Experiments
+# The AMP Experiments
 
 AMP experiments are features that are released but not yet ready for wide use, so they are protected by an **experimental** status.
 
@@ -63,7 +63,7 @@ To prevent race conditions caused from loading the runtime and an inline script 
 </script>
 ```
 
-## Adding a new experiment
+## An Adding a new experiment
 
 To add a new experiment:
 
